@@ -1,0 +1,43 @@
+# Virtual environments — NEVER push these
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Model weights (large binary files — host separately if needed)
+# Uncomment below if you want to exclude them:
+# models/*.pth
+
+# Logs (auto-generated, don't need tracking)
+logs/
+
+# Saved sentences
+sentence_*.txt
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+*.env
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
